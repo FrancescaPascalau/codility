@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -26,11 +27,20 @@ public class Test {
 //        Solution2 s = new Solution2();
 //        s.solution(1234000);
 
-        OddOccurrencesInArray odd = new OddOccurrencesInArray();
-        int result;
-        int[] array = {3,1,6,3,7,1,6};
+//        OddOccurrencesInArray odd = new OddOccurrencesInArray();
+//        int result;
+//        int[] array = {3,1,6,3,7,1,6};
+//
+//        result = odd.solution(array);
+//        System.out.println(result);
 
-        result = odd.solution(array);
-        System.out.println(result);
+        RightRotation rotate = new RightRotation();
+        int array[] = {};
+        int rotation = 9;
+        int[] result = rotate.solution(array, rotation);
+        System.out.println("The new array is: ");
+        for (int element : result){
+            System.out.print(element);
+        }
     }
 }
