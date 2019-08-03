@@ -34,13 +34,17 @@ public class Test {
 //        result = odd.solution(array);
 //        System.out.println(result);
 
-        RightRotation rotate = new RightRotation();
-        int array[] = {};
-        int rotation = 9;
-        int[] result = rotate.solution(array, rotation);
-        System.out.println("The new array is: ");
-        for (int element : result){
-            System.out.print(element);
-        }
+//        RightRotation rotate = new RightRotation();
+//        int array[] = {};
+//        int rotation = 9;
+//        int[] result = rotate.solution(array, rotation);
+//        System.out.println("The new array is: ");
+//        for (int element : result){
+//            System.out.print(element);
+//        }
+
+        FrogJmp froggy = new FrogJmp();
+        int minimalJumps = froggy.solution(3, 999111321, 7);
+        System.out.println("The number of jumps the frog has to do is: " + minimalJumps);
     }
 }
